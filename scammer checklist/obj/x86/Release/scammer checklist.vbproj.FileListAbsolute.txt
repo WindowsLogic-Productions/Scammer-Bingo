@@ -1,0 +1,23 @@
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\scammer checklist.vbprojAssemblyReference.cache
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.About.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.Bingo.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.ButtonChange.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.Dedicate.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.Exitdiag.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.HelpCentre.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.Information.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.MessageBoxChange.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.Resources.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.Resetdiag.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.ScamNums.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.SendNum.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.SettingsPanel.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.SettingsPanelGeneral.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.SettingsPanelPersonalise.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.SettingsPanelUpdates.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.Errordiag.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.WhatsNew.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.Updater.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\SCAMbingo1.UpdaterPrompt.resources
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\scammer checklist.vbproj.GenerateResource.cache
+C:\Users\Tim\Dropbox\Projects\Scammer Bingo\Scammer Bingo\obj\x86\Release\scammer checklist.vbproj.CoreCompileInputs.cache

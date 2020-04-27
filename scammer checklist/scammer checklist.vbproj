@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65C155D1-E0EA-4411-9187-9A68B80C9D2E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SCAMbingo1.My.MyApplication</StartupObject>
+    <RootNamespace>SCAMbingo1</RootNamespace>
+    <AssemblyName>WLP Scammer Bingo</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Lewis\Documents\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WLP Scammer Bingo.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WLP Scammer Bingo.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\ssScammer.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>85F0148DFFC7DEB02188ACF12803FF9D2C965FC4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>scammer checklist_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bingo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bingo.Designer.vb">
+      <DependentUpon>Bingo.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonChange.Designer.vb">
+      <DependentUpon>ButtonChange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonChange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dedicate.Designer.vb">
+      <DependentUpon>Dedicate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dedicate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exitdiag.Designer.vb">
+      <DependentUpon>Exitdiag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exitdiag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpCentre.Designer.vb">
+      <DependentUpon>HelpCentre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpCentre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Information.Designer.vb">
+      <DependentUpon>Information.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Information.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxChange.Designer.vb">
+      <DependentUpon>MessageBoxChange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxChange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resetdiag.Designer.vb">
+      <DependentUpon>Resetdiag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resetdiag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScamNums.Designer.vb">
+      <DependentUpon>ScamNums.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ScamNums.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendNum.Designer.vb">
+      <DependentUpon>SendNum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SendNum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsPanel.Designer.vb">
+      <DependentUpon>SettingsPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsPanelGeneral.Designer.vb">
+      <DependentUpon>SettingsPanelGeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsPanelGeneral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsPanelPersonalise.Designer.vb">
+      <DependentUpon>SettingsPanelPersonalise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsPanelPersonalise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsPanelUpdates.Designer.vb">
+      <DependentUpon>SettingsPanelUpdates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsPanelUpdates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Errordiag.Designer.vb">
+      <DependentUpon>Errordiag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Errordiag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Variables.vb" />
+    <Compile Include="WhatsNew.Designer.vb">
+      <DependentUpon>WhatsNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WhatsNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updater.Designer.vb">
+      <DependentUpon>Updater.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Updater.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdaterPrompt.Designer.vb">
+      <DependentUpon>UpdaterPrompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdaterPrompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bingo.resx">
+      <DependentUpon>Bingo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonChange.resx">
+      <DependentUpon>ButtonChange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dedicate.resx">
+      <DependentUpon>Dedicate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exitdiag.resx">
+      <DependentUpon>Exitdiag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpCentre.resx">
+      <DependentUpon>HelpCentre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information.resx">
+      <DependentUpon>Information.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxChange.resx">
+      <DependentUpon>MessageBoxChange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resetdiag.resx">
+      <DependentUpon>Resetdiag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScamNums.resx">
+      <DependentUpon>ScamNums.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendNum.resx">
+      <DependentUpon>SendNum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPanel.resx">
+      <DependentUpon>SettingsPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPanelGeneral.resx">
+      <DependentUpon>SettingsPanelGeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPanelPersonalise.resx">
+      <DependentUpon>SettingsPanelPersonalise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPanelUpdates.resx">
+      <DependentUpon>SettingsPanelUpdates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errordiag.resx">
+      <DependentUpon>Errordiag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhatsNew.resx">
+      <DependentUpon>WhatsNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updater.resx">
+      <DependentUpon>Updater.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdaterPrompt.resx">
+      <DependentUpon>UpdaterPrompt.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssUpdate.ico" />
+    <None Include="Resources\ssWhatsNew.ico" />
+    <None Include="Resources\ssOpen.ico" />
+    <None Include="Resources\ssScammer.ico" />
+    <None Include="Resources\ssRefresh.ico" />
+    <None Include="Resources\ssSounds.ico" />
+    <None Include="Resources\ssSecGood.ico" />
+    <None Include="Resources\GoodGradient.png" />
+    <None Include="Resources\ssSecWarn.ico" />
+    <None Include="Resources\WarningGradient.png" />
+    <None Include="Resources\Exit.ico" />
+    <None Include="Resources\ssSettings.ico" />
+    <None Include="Resources\Windows Vista Beta Startup.wav" />
+    <None Include="Resources\Windows 7 Legacy.png" />
+    <None Include="Resources\Windows Vista Beta IRInter.wav" />
+    <None Include="Resources\ssInfo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssQuestion.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssNavigateBack.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssNavigateFoward.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSketchPad.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssExclamation.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssUIColours.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssCritical.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSecBad.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BadGradient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows Logon.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows Background.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows Foreground.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows Notify Calendar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows Vista Beta Exclamation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows Vista Beta Critical Stop.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssProperties.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssProperties1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
