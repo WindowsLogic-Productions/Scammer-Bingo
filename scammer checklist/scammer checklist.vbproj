@@ -175,18 +175,6 @@
     <Compile Include="Resetdiag.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ScamNums.Designer.vb">
-      <DependentUpon>ScamNums.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ScamNums.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SendNum.Designer.vb">
-      <DependentUpon>SendNum.vb</DependentUpon>
-    </Compile>
-    <Compile Include="SendNum.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="SettingsPanel.Designer.vb">
       <DependentUpon>SettingsPanel.vb</DependentUpon>
     </Compile>
@@ -267,12 +255,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resetdiag.resx">
       <DependentUpon>Resetdiag.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ScamNums.resx">
-      <DependentUpon>ScamNums.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SendNum.resx">
-      <DependentUpon>SendNum.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsPanel.resx">
       <DependentUpon>SettingsPanel.vb</DependentUpon>

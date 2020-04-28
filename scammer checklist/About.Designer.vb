@@ -38,18 +38,20 @@ Partial Class About
         '
         Me.VerInfo.AutoSize = True
         Me.VerInfo.ForeColor = System.Drawing.Color.White
-        Me.VerInfo.Location = New System.Drawing.Point(12, 65)
+        Me.VerInfo.Location = New System.Drawing.Point(11, 59)
         Me.VerInfo.Name = "VerInfo"
-        Me.VerInfo.Size = New System.Drawing.Size(371, 65)
+        Me.VerInfo.Size = New System.Drawing.Size(372, 65)
         Me.VerInfo.TabIndex = 0
-        Me.VerInfo.Text = resources.GetString("VerInfo.Text")
+        Me.VerInfo.Text = "Scammer Bingo is Copyright © 2016 - 2020 WindowsLogic Productions." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "All rights re" &
+    "served." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "This product is licensed under the                                   " &
+    "   to:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "%user%"
         Me.VerInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'OKButton
         '
         Me.OKButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.OKButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.OKButton.Location = New System.Drawing.Point(307, 147)
+        Me.OKButton.Location = New System.Drawing.Point(307, 139)
         Me.OKButton.Name = "OKButton"
         Me.OKButton.Size = New System.Drawing.Size(75, 23)
         Me.OKButton.TabIndex = 0
@@ -103,7 +105,7 @@ Partial Class About
         '
         Me.MoreButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.MoreButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.MoreButton.Location = New System.Drawing.Point(226, 147)
+        Me.MoreButton.Location = New System.Drawing.Point(226, 139)
         Me.MoreButton.Name = "MoreButton"
         Me.MoreButton.Size = New System.Drawing.Size(75, 23)
         Me.MoreButton.TabIndex = 1
@@ -116,7 +118,7 @@ Partial Class About
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(394, 182)
+        Me.ClientSize = New System.Drawing.Size(394, 174)
         Me.Controls.Add(Me.VerInfo)
         Me.Controls.Add(Me.MoreButton)
         Me.Controls.Add(Me.OKButton)
