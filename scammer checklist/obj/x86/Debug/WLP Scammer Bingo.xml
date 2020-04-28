@@ -2,158 +2,174 @@
 <doc>
 <assembly>
 <name>
-WLPScammerBingo
+WLP Scammer Bingo
 </name>
 </assembly>
 <members>
+<member name="T:SCAMbingo1.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
 <member name="P:SCAMbingo1.My.Resources.Resources.ResourceManager">
-	<summary>
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.BadGradient">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.BadGradient">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.Critical">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.Critical2">
+<summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.Critical2">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.Exclamation2">
+<summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.Exclamation">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.GoodGradient">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.Information2">
+<summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.Exclamation2">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.Opening2">
+<summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.GoodGradient">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssCritical">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.Information">
-	<summary>
-  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-</summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.Information2">
-	<summary>
-  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-</summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.Opening">
-	<summary>
-  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-</summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.Opening2">
-	<summary>
-  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-</summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssCritical">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssExclamation">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssExclamation">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssExit">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssExit">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssHome">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssHome">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssInfo">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssInfo">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssLegacy">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssLegacy">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssNavigateBack">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssNavigateBack">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssNavigateFoward">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssNavigateFoward">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssOpen">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssOpen">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssProperties">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssProperties">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssQuestion">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssQuestion">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssRefresh">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssRefresh">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssScammer">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssScammer">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssSecBad">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssSecBad">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssSecGood">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssSecGood">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssSecWarn">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssSecWarn">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssSet">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssSet">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssSettings">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssSettings">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssSketchPad">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssSketchPad">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssSounds">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssSounds">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssUIColours">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssUIColours">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssUpdate">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssUpdate">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.ssWhatsNew">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.ssWhatsNew">
-	<summary>
+</member>
+<member name="P:SCAMbingo1.My.Resources.Resources.WarningGradient">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:SCAMbingo1.My.Resources.Resources.WarningGradient">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="T:SCAMbingo1.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>

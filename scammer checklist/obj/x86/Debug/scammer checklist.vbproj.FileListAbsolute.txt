@@ -1,0 +1,29 @@
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\scammer checklist.vbprojResolveAssemblyReference.cache
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.MessageBoxChange.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.Resources.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.SettingsPanelGeneral.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.SettingsPanelPersonalise.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.SettingsPanelUpdates.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\scammer checklist.vbproj.GenerateResource.Cache
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\WLP Scammer Bingo.xml
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\WLP Scammer Bingo.pdb
+F:\GitHub\Scammer-Bingo\scammer checklist\bin\Debug\WLP Scammer Bingo.exe.config
+F:\GitHub\Scammer-Bingo\scammer checklist\bin\Debug\WLP Scammer Bingo.exe
+F:\GitHub\Scammer-Bingo\scammer checklist\bin\Debug\WLP Scammer Bingo.pdb
+F:\GitHub\Scammer-Bingo\scammer checklist\bin\Debug\WLP Scammer Bingo.xml
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.About.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.Bingo.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.ButtonChange.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.Dedicate.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.Exitdiag.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.HelpCentre.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.Information.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.Resetdiag.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.ScamNums.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.SendNum.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.SettingsPanel.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.Errordiag.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.WhatsNew.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.Updater.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\SCAMbingo1.UpdaterPrompt.resources
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Debug\WLP Scammer Bingo.exe

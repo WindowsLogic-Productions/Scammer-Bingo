@@ -106,3 +106,4 @@ J:\Projects\Scammer-Bingo\scammer checklist\obj\x86\Release\scammer checklist.vb
 J:\Projects\Scammer-Bingo\scammer checklist\obj\x86\Release\WLP Scammer Bingo.exe
 J:\Projects\Scammer-Bingo\scammer checklist\obj\x86\Release\WLP Scammer Bingo.xml
 J:\Projects\Scammer-Bingo\scammer checklist\obj\x86\Release\WLP Scammer Bingo.pdb
+F:\GitHub\Scammer-Bingo\scammer checklist\obj\x86\Release\scammer checklist.vbprojResolveAssemblyReference.cache

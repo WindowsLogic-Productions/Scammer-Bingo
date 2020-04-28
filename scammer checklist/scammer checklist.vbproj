@@ -136,12 +136,6 @@
     <Compile Include="Dedicate.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exitdiag.Designer.vb">
-      <DependentUpon>Exitdiag.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Exitdiag.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="HelpCentre.Designer.vb">
       <DependentUpon>HelpCentre.vb</DependentUpon>
     </Compile>
@@ -255,9 +249,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dedicate.resx">
       <DependentUpon>Dedicate.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Exitdiag.resx">
-      <DependentUpon>Exitdiag.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HelpCentre.resx">
       <DependentUpon>HelpCentre.vb</DependentUpon>

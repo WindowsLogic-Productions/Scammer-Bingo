@@ -70,7 +70,7 @@ Partial Class Bingo
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(53, 124)
+        Me.Label2.Location = New System.Drawing.Point(51, 92)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(460, 17)
         Me.Label2.TabIndex = 0
@@ -80,7 +80,7 @@ Partial Class Bingo
         '
         Me.BingoSlot8.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot8.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot8.Location = New System.Drawing.Point(431, 271)
+        Me.BingoSlot8.Location = New System.Drawing.Point(431, 243)
         Me.BingoSlot8.Name = "BingoSlot8"
         Me.BingoSlot8.Size = New System.Drawing.Size(109, 75)
         Me.BingoSlot8.TabIndex = 8
@@ -91,7 +91,7 @@ Partial Class Bingo
         '
         Me.BingoSlot7.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot7.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot7.Location = New System.Drawing.Point(291, 271)
+        Me.BingoSlot7.Location = New System.Drawing.Point(291, 243)
         Me.BingoSlot7.Name = "BingoSlot7"
         Me.BingoSlot7.Size = New System.Drawing.Size(109, 75)
         Me.BingoSlot7.TabIndex = 7
@@ -102,7 +102,7 @@ Partial Class Bingo
         '
         Me.BingoSlot6.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot6.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot6.Location = New System.Drawing.Point(150, 271)
+        Me.BingoSlot6.Location = New System.Drawing.Point(150, 243)
         Me.BingoSlot6.Name = "BingoSlot6"
         Me.BingoSlot6.Size = New System.Drawing.Size(109, 75)
         Me.BingoSlot6.TabIndex = 6
@@ -113,7 +113,7 @@ Partial Class Bingo
         '
         Me.BingoSlot5.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot5.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot5.Location = New System.Drawing.Point(12, 271)
+        Me.BingoSlot5.Location = New System.Drawing.Point(12, 243)
         Me.BingoSlot5.Name = "BingoSlot5"
         Me.BingoSlot5.Size = New System.Drawing.Size(109, 75)
         Me.BingoSlot5.TabIndex = 5
@@ -124,7 +124,7 @@ Partial Class Bingo
         '
         Me.BingoSlot12.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot12.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot12.Location = New System.Drawing.Point(431, 382)
+        Me.BingoSlot12.Location = New System.Drawing.Point(431, 354)
         Me.BingoSlot12.Name = "BingoSlot12"
         Me.BingoSlot12.Size = New System.Drawing.Size(109, 75)
         Me.BingoSlot12.TabIndex = 12
@@ -135,7 +135,7 @@ Partial Class Bingo
         '
         Me.BingoSlot11.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot11.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot11.Location = New System.Drawing.Point(291, 382)
+        Me.BingoSlot11.Location = New System.Drawing.Point(291, 354)
         Me.BingoSlot11.Name = "BingoSlot11"
         Me.BingoSlot11.Size = New System.Drawing.Size(109, 75)
         Me.BingoSlot11.TabIndex = 11
@@ -146,7 +146,7 @@ Partial Class Bingo
         '
         Me.BingoSlot10.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot10.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot10.Location = New System.Drawing.Point(150, 382)
+        Me.BingoSlot10.Location = New System.Drawing.Point(150, 354)
         Me.BingoSlot10.Name = "BingoSlot10"
         Me.BingoSlot10.Size = New System.Drawing.Size(109, 75)
         Me.BingoSlot10.TabIndex = 10
@@ -157,7 +157,7 @@ Partial Class Bingo
         '
         Me.BingoSlot9.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot9.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot9.Location = New System.Drawing.Point(12, 382)
+        Me.BingoSlot9.Location = New System.Drawing.Point(12, 354)
         Me.BingoSlot9.Name = "BingoSlot9"
         Me.BingoSlot9.Size = New System.Drawing.Size(109, 75)
         Me.BingoSlot9.TabIndex = 9
@@ -169,7 +169,7 @@ Partial Class Bingo
         Me.BingoSlot4.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot4.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.BingoSlot4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BingoSlot4.Location = New System.Drawing.Point(431, 160)
+        Me.BingoSlot4.Location = New System.Drawing.Point(431, 132)
         Me.BingoSlot4.Name = "BingoSlot4"
         Me.BingoSlot4.Size = New System.Drawing.Size(109, 71)
         Me.BingoSlot4.TabIndex = 4
@@ -180,7 +180,7 @@ Partial Class Bingo
         '
         Me.BingoSlot3.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot3.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot3.Location = New System.Drawing.Point(291, 160)
+        Me.BingoSlot3.Location = New System.Drawing.Point(291, 132)
         Me.BingoSlot3.Name = "BingoSlot3"
         Me.BingoSlot3.Size = New System.Drawing.Size(109, 71)
         Me.BingoSlot3.TabIndex = 3
@@ -191,7 +191,7 @@ Partial Class Bingo
         '
         Me.BingoSlot2.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot2.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot2.Location = New System.Drawing.Point(150, 160)
+        Me.BingoSlot2.Location = New System.Drawing.Point(150, 132)
         Me.BingoSlot2.Name = "BingoSlot2"
         Me.BingoSlot2.Size = New System.Drawing.Size(109, 71)
         Me.BingoSlot2.TabIndex = 2
@@ -202,7 +202,7 @@ Partial Class Bingo
         '
         Me.BingoSlot1.BackColor = System.Drawing.Color.Transparent
         Me.BingoSlot1.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot1.Location = New System.Drawing.Point(12, 160)
+        Me.BingoSlot1.Location = New System.Drawing.Point(12, 132)
         Me.BingoSlot1.Name = "BingoSlot1"
         Me.BingoSlot1.Size = New System.Drawing.Size(109, 71)
         Me.BingoSlot1.TabIndex = 1
@@ -374,7 +374,7 @@ Partial Class Bingo
         Me.GroupBox2.Controls.Add(Me.Label5)
         Me.GroupBox2.Controls.Add(Me.lblscore)
         Me.GroupBox2.ForeColor = System.Drawing.Color.White
-        Me.GroupBox2.Location = New System.Drawing.Point(12, 463)
+        Me.GroupBox2.Location = New System.Drawing.Point(12, 435)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(528, 51)
         Me.GroupBox2.TabIndex = 44

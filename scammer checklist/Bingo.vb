@@ -276,9 +276,4 @@
         End If
     End Sub
 #End Region
-
-    Private Sub Bingo_FormClosing(sender As Object, e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
-        Exitdiag.ShowDialog()
-        e.Cancel = True
-    End Sub
 End Class
