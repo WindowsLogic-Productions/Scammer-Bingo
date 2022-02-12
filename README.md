@@ -1,5 +1,5 @@
 # Scammer Bingo
-The original Scammer Bingo.
+The original Scammer Bingo. Run this application when you're trying to bait scammers!
 
 # Copyright
 All code is Copyright © 2016 - 2021 WindowsLogic Productions.
