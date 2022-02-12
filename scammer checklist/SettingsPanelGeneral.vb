@@ -3,11 +3,9 @@
     Private Sub SettingsPanelGeneral_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         'Load automatic reset settings.
         If My.Settings.ScamReset = 1 Then
-            Me.ResetON.Checked = True
-        End If
-
-        If My.Settings.ScamReset = 0 Then
-            Me.ResetOFF.Checked = True
+            Me.ResetBox.Checked = True
+        ElseIf My.Settings.ScamReset = 0 Then
+            Me.ResetBox.Checked = False
         End If
 
         'Load message box settings.
@@ -40,15 +38,13 @@
     End Sub
 #End Region
 #Region "Settings"
-    Private Sub ResetON_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles ResetON.CheckedChanged
-        If Me.ResetON.Checked = True Then
+    Private Sub ResetBox_CheckedChanged(sender As Object, e As EventArgs) Handles ResetBox.CheckedChanged
+        If ResetBox.Checked = True Then
             My.Settings.ScamReset = 1
-        End If
-    End Sub
-
-    Private Sub ResetOFF_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles ResetOFF.CheckedChanged
-        If Me.ResetOFF.Checked = True Then
+            My.Settings.Save()
+        Else
             My.Settings.ScamReset = 0
+            My.Settings.Save()
         End If
     End Sub
 
@@ -182,5 +178,7 @@
         My.Settings.Save()
         Me.Close()
     End Sub
+
+
 #End Region
 End Class

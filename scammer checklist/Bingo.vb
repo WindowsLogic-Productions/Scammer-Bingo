@@ -269,9 +269,7 @@
             BingoSlot10.Enabled = True
             BingoSlot11.Enabled = True
             BingoSlot12.Enabled = True
-        End If
-
-        If My.Settings.ScamReset = 0 And Me.lblscore.Text = "12" Then
+        Else
 
         End If
     End Sub

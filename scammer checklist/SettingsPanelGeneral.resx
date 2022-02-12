@@ -123,16 +123,19 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFpSURBVFhH7ZZdS4NQGMf9Fn3fIqjWXQRBt0HsYrdRREEv
-        RASjuWEL2QzJi2JE5fvLxRMedDvqOeajx7rYHvihcNTf/8gfUVrNav5yAGAtOS3O0XEX2mT/4BA2t3fn
-        JNrFsG4SweNgSOTXt3dEnB4T7WLii6MoEk4YhoQgCObUCtAbWtA3XOYaD5bc9/3qAU5H72AYBnQf3mDr
-        bAbfbli4hgdPjgqwcz6DvZsvWD/5gPsnvbDOo0zueV71AOrLK3QuPuFq6sB0MsmuqSoTRVFAluUMtBwV
-        QNd10DSNyOOH59fz/LZzdACa3qi8hFXlruuKLyFGjgrQSUq4UVJCrBwVgJTwkl9CVuFY0HLHccSUsM7O
-        YzkqAA39JWwiRwVglbCp3Lbt+iUUIUcFoEv4PB5n5Kyy8aDlqABpCWO5PJAb7zzGsixcCUW99lSOCtCG
-        3DRNfgCa/D+caBIte0r/Xtue5ZX/6yzxa5ekHwDdZNEJtfAVAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAWlJREFUWEftll1Lg1AYx/0Wfd8iqNZdBEG3Qexit1FEQS9EBKO5YQvZDMmLYkTl
+        +8vFEx50O+o55qPHutge+KFw1N//yB9RWs1q/nIAYC05Lc7RcRfaZP/gEDa3d+ck2sWwbhLB42BI5Ne3
+        d0ScHhPtYuKLoygSThiGhCAI5tQK0Bta0Ddc5hoPltz3/eoBTkfvYBgGdB/eYOtsBt9uWLiGB0+OCrBz
+        PoO9my9YP/mA+ye9sM6jTO55XvUA6ssrdC4+4WrqwHQyya6pKhNFUUCW5Qy0HBVA13XQNI3I44fn1/P8
+        tnN0AJreqLyEVeWu64ovIUaOCtBJSrhRUkKsHBWAlPCSX0JW4VjQcsdxxJSwzs5jOSoADf0lbCJHBWCV
+        sKnctu36JRQhRwWgS/g8HmfkrLLxoOWoAGkJY7k8kBvvPMayLFwJRb32VI4K0IbcNE1+AJr8P5xoEi17
+        Sv9e257llf/rLPFrl6QfAN1k0Qm18BUAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAMAMDAAAAEAIACoJQAANgAAACAgAAABACAAqBAAAN4lAAAQEAAAAQAgAGgEAACGNgAAKAAAADAA

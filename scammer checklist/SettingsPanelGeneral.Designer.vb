@@ -25,22 +25,28 @@ Partial Class SettingsPanelGeneral
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SettingsPanelGeneral))
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.BackButton = New System.Windows.Forms.Button()
         Me.TitleLabel = New System.Windows.Forms.Label()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.ResetOFF = New System.Windows.Forms.RadioButton()
-        Me.ResetON = New System.Windows.Forms.RadioButton()
+        Me.ResetBox = New System.Windows.Forms.CheckBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.MsgBox1Button = New System.Windows.Forms.Button()
         Me.MsgBox2Button = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MsgBoxOFF = New System.Windows.Forms.RadioButton()
         Me.MsgBoxON = New System.Windows.Forms.RadioButton()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.BingoSlot12 = New System.Windows.Forms.Button()
         Me.BingoSlot1 = New System.Windows.Forms.Button()
         Me.BingoSlot11 = New System.Windows.Forms.Button()
@@ -53,26 +59,20 @@ Partial Class SettingsPanelGeneral
         Me.BingoSlot5 = New System.Windows.Forms.Button()
         Me.BingoSlot7 = New System.Windows.Forms.Button()
         Me.BingoSlot6 = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.BackButton = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -85,6 +85,16 @@ Partial Class SettingsPanelGeneral
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(441, 53)
         Me.Panel1.TabIndex = 7
+        '
+        'BackButton
+        '
+        Me.BackButton.Image = Global.SCAMbingo1.My.Resources.Resources.ssNavigateBack
+        Me.BackButton.Location = New System.Drawing.Point(12, 9)
+        Me.BackButton.Name = "BackButton"
+        Me.BackButton.Size = New System.Drawing.Size(36, 36)
+        Me.BackButton.TabIndex = 3
+        Me.ToolTip1.SetToolTip(Me.BackButton, "Back to Settings Panel.")
+        Me.BackButton.UseVisualStyleBackColor = True
         '
         'TitleLabel
         '
@@ -120,9 +130,9 @@ Partial Class SettingsPanelGeneral
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Controls.Add(Me.ResetBox)
         Me.GroupBox2.Controls.Add(Me.PictureBox2)
-        Me.GroupBox2.Controls.Add(Me.ResetOFF)
-        Me.GroupBox2.Controls.Add(Me.ResetON)
         Me.GroupBox2.ForeColor = System.Drawing.Color.Black
         Me.GroupBox2.Location = New System.Drawing.Point(6, 6)
         Me.GroupBox2.Name = "GroupBox2"
@@ -131,29 +141,25 @@ Partial Class SettingsPanelGeneral
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Automatic Reset"
         '
-        'ResetOFF
+        'ResetBox
         '
-        Me.ResetOFF.AutoSize = True
-        Me.ResetOFF.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.ResetOFF.Location = New System.Drawing.Point(92, 28)
-        Me.ResetOFF.Name = "ResetOFF"
-        Me.ResetOFF.Size = New System.Drawing.Size(52, 18)
-        Me.ResetOFF.TabIndex = 1
-        Me.ResetOFF.TabStop = True
-        Me.ResetOFF.Text = "OFF"
-        Me.ResetOFF.UseVisualStyleBackColor = True
+        Me.ResetBox.AutoSize = True
+        Me.ResetBox.Location = New System.Drawing.Point(44, 36)
+        Me.ResetBox.Name = "ResetBox"
+        Me.ResetBox.Size = New System.Drawing.Size(143, 17)
+        Me.ResetBox.TabIndex = 2
+        Me.ResetBox.Text = "Enable automatic reset"
+        Me.ResetBox.UseVisualStyleBackColor = True
         '
-        'ResetON
+        'PictureBox2
         '
-        Me.ResetON.AutoSize = True
-        Me.ResetON.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.ResetON.Location = New System.Drawing.Point(44, 28)
-        Me.ResetON.Name = "ResetON"
-        Me.ResetON.Size = New System.Drawing.Size(48, 18)
-        Me.ResetON.TabIndex = 0
-        Me.ResetON.TabStop = True
-        Me.ResetON.Text = "ON"
-        Me.ResetON.UseVisualStyleBackColor = True
+        Me.PictureBox2.Image = Global.SCAMbingo1.My.Resources.Resources.ssRefresh
+        Me.PictureBox2.Location = New System.Drawing.Point(6, 21)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox2.TabIndex = 1
+        Me.PictureBox2.TabStop = False
         '
         'TabPage2
         '
@@ -179,6 +185,25 @@ Partial Class SettingsPanelGeneral
         Me.GroupBox3.TabIndex = 7
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Modify Message Boxes"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(44, 21)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(334, 13)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "Modify the ""6/12"" or ""12/12"" message box to say what you want."
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.SCAMbingo1.My.Resources.Resources.ssInfo
+        Me.PictureBox3.Location = New System.Drawing.Point(6, 21)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox3.TabIndex = 7
+        Me.PictureBox3.TabStop = False
         '
         'MsgBox1Button
         '
@@ -213,6 +238,25 @@ Partial Class SettingsPanelGeneral
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Message Boxes"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(44, 21)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(277, 13)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Turn the ""6/12"" and ""12/12"" message boxes on or off."
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.SCAMbingo1.My.Resources.Resources.ssExclamation
+        Me.PictureBox1.Location = New System.Drawing.Point(6, 21)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
         '
         'MsgBoxOFF
         '
@@ -279,158 +323,8 @@ Partial Class SettingsPanelGeneral
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(343, 26)
         Me.Label1.TabIndex = 12
-        Me.Label1.Text = "Click a button below to modify its slot. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "All buttons are placed in the exact pl" & _
-            "acement as the bingo board."
-        '
-        'BingoSlot12
-        '
-        Me.BingoSlot12.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot12.Location = New System.Drawing.Point(292, 129)
-        Me.BingoSlot12.Name = "BingoSlot12"
-        Me.BingoSlot12.Size = New System.Drawing.Size(100, 35)
-        Me.BingoSlot12.TabIndex = 11
-        Me.BingoSlot12.Text = "BingoSlot12"
-        Me.BingoSlot12.UseVisualStyleBackColor = True
-        '
-        'BingoSlot1
-        '
-        Me.BingoSlot1.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot1.Location = New System.Drawing.Point(4, 59)
-        Me.BingoSlot1.Name = "BingoSlot1"
-        Me.BingoSlot1.Size = New System.Drawing.Size(96, 35)
-        Me.BingoSlot1.TabIndex = 0
-        Me.BingoSlot1.Text = "BingoSlot1"
-        Me.BingoSlot1.UseVisualStyleBackColor = True
-        '
-        'BingoSlot11
-        '
-        Me.BingoSlot11.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot11.Location = New System.Drawing.Point(196, 129)
-        Me.BingoSlot11.Name = "BingoSlot11"
-        Me.BingoSlot11.Size = New System.Drawing.Size(96, 35)
-        Me.BingoSlot11.TabIndex = 10
-        Me.BingoSlot11.Text = "BingoSlot11"
-        Me.BingoSlot11.UseVisualStyleBackColor = True
-        '
-        'BingoSlot2
-        '
-        Me.BingoSlot2.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot2.Location = New System.Drawing.Point(100, 59)
-        Me.BingoSlot2.Name = "BingoSlot2"
-        Me.BingoSlot2.Size = New System.Drawing.Size(96, 35)
-        Me.BingoSlot2.TabIndex = 1
-        Me.BingoSlot2.Text = "BingoSlot2"
-        Me.BingoSlot2.UseVisualStyleBackColor = True
-        '
-        'BingoSlot10
-        '
-        Me.BingoSlot10.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot10.Location = New System.Drawing.Point(100, 129)
-        Me.BingoSlot10.Name = "BingoSlot10"
-        Me.BingoSlot10.Size = New System.Drawing.Size(96, 35)
-        Me.BingoSlot10.TabIndex = 9
-        Me.BingoSlot10.Text = "BingoSlot10"
-        Me.BingoSlot10.UseVisualStyleBackColor = True
-        '
-        'BingoSlot3
-        '
-        Me.BingoSlot3.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot3.Location = New System.Drawing.Point(196, 59)
-        Me.BingoSlot3.Name = "BingoSlot3"
-        Me.BingoSlot3.Size = New System.Drawing.Size(96, 35)
-        Me.BingoSlot3.TabIndex = 2
-        Me.BingoSlot3.Text = "BingoSlot3"
-        Me.BingoSlot3.UseVisualStyleBackColor = True
-        '
-        'BingoSlot9
-        '
-        Me.BingoSlot9.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot9.Location = New System.Drawing.Point(4, 129)
-        Me.BingoSlot9.Name = "BingoSlot9"
-        Me.BingoSlot9.Size = New System.Drawing.Size(96, 35)
-        Me.BingoSlot9.TabIndex = 8
-        Me.BingoSlot9.Text = "BingoSlot9"
-        Me.BingoSlot9.UseVisualStyleBackColor = True
-        '
-        'BingoSlot4
-        '
-        Me.BingoSlot4.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot4.Location = New System.Drawing.Point(292, 59)
-        Me.BingoSlot4.Name = "BingoSlot4"
-        Me.BingoSlot4.Size = New System.Drawing.Size(100, 35)
-        Me.BingoSlot4.TabIndex = 3
-        Me.BingoSlot4.Text = "BingoSlot4"
-        Me.BingoSlot4.UseVisualStyleBackColor = True
-        '
-        'BingoSlot8
-        '
-        Me.BingoSlot8.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot8.Location = New System.Drawing.Point(292, 94)
-        Me.BingoSlot8.Name = "BingoSlot8"
-        Me.BingoSlot8.Size = New System.Drawing.Size(100, 35)
-        Me.BingoSlot8.TabIndex = 7
-        Me.BingoSlot8.Text = "BingoSlot8"
-        Me.BingoSlot8.UseVisualStyleBackColor = True
-        '
-        'BingoSlot5
-        '
-        Me.BingoSlot5.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot5.Location = New System.Drawing.Point(4, 94)
-        Me.BingoSlot5.Name = "BingoSlot5"
-        Me.BingoSlot5.Size = New System.Drawing.Size(96, 35)
-        Me.BingoSlot5.TabIndex = 4
-        Me.BingoSlot5.Text = "BingoSlot5"
-        Me.BingoSlot5.UseVisualStyleBackColor = True
-        '
-        'BingoSlot7
-        '
-        Me.BingoSlot7.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot7.Location = New System.Drawing.Point(196, 94)
-        Me.BingoSlot7.Name = "BingoSlot7"
-        Me.BingoSlot7.Size = New System.Drawing.Size(96, 35)
-        Me.BingoSlot7.TabIndex = 6
-        Me.BingoSlot7.Text = "BingoSlot7"
-        Me.BingoSlot7.UseVisualStyleBackColor = True
-        '
-        'BingoSlot6
-        '
-        Me.BingoSlot6.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.BingoSlot6.Location = New System.Drawing.Point(100, 94)
-        Me.BingoSlot6.Name = "BingoSlot6"
-        Me.BingoSlot6.Size = New System.Drawing.Size(96, 35)
-        Me.BingoSlot6.TabIndex = 5
-        Me.BingoSlot6.Text = "BingoSlot6"
-        Me.BingoSlot6.UseVisualStyleBackColor = True
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.SCAMbingo1.My.Resources.Resources.ssRefresh
-        Me.PictureBox2.Location = New System.Drawing.Point(6, 21)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox2.TabIndex = 1
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.SCAMbingo1.My.Resources.Resources.ssInfo
-        Me.PictureBox3.Location = New System.Drawing.Point(6, 21)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox3.TabIndex = 7
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.SCAMbingo1.My.Resources.Resources.ssExclamation
-        Me.PictureBox1.Location = New System.Drawing.Point(6, 21)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+        Me.Label1.Text = "Click a button below to modify its slot. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "All buttons are placed in the exact pl" &
+    "acement as the bingo board."
         '
         'PictureBox4
         '
@@ -442,33 +336,134 @@ Partial Class SettingsPanelGeneral
         Me.PictureBox4.TabIndex = 0
         Me.PictureBox4.TabStop = False
         '
-        'BackButton
+        'BingoSlot12
         '
-        Me.BackButton.Image = Global.SCAMbingo1.My.Resources.Resources.ssNavigateBack
-        Me.BackButton.Location = New System.Drawing.Point(12, 9)
-        Me.BackButton.Name = "BackButton"
-        Me.BackButton.Size = New System.Drawing.Size(36, 36)
-        Me.BackButton.TabIndex = 3
-        Me.ToolTip1.SetToolTip(Me.BackButton, "Back to Settings Panel.")
-        Me.BackButton.UseVisualStyleBackColor = True
+        Me.BingoSlot12.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot12.Location = New System.Drawing.Point(292, 129)
+        Me.BingoSlot12.Name = "BingoSlot12"
+        Me.BingoSlot12.Size = New System.Drawing.Size(100, 35)
+        Me.BingoSlot12.TabIndex = 11
+        Me.BingoSlot12.Text = "Slot 12"
+        Me.BingoSlot12.UseVisualStyleBackColor = True
         '
-        'Label2
+        'BingoSlot1
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(44, 21)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(277, 13)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Turn the ""6/12"" and ""12/12"" message boxes on or off."
+        Me.BingoSlot1.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot1.Location = New System.Drawing.Point(4, 59)
+        Me.BingoSlot1.Name = "BingoSlot1"
+        Me.BingoSlot1.Size = New System.Drawing.Size(96, 35)
+        Me.BingoSlot1.TabIndex = 0
+        Me.BingoSlot1.Text = "Slot 1"
+        Me.BingoSlot1.UseVisualStyleBackColor = True
         '
-        'Label3
+        'BingoSlot11
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(44, 21)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(334, 13)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Modify the ""6/12"" or ""12/12"" message box to say what you want."
+        Me.BingoSlot11.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot11.Location = New System.Drawing.Point(196, 129)
+        Me.BingoSlot11.Name = "BingoSlot11"
+        Me.BingoSlot11.Size = New System.Drawing.Size(96, 35)
+        Me.BingoSlot11.TabIndex = 10
+        Me.BingoSlot11.Text = "Slot 11"
+        Me.BingoSlot11.UseVisualStyleBackColor = True
+        '
+        'BingoSlot2
+        '
+        Me.BingoSlot2.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot2.Location = New System.Drawing.Point(100, 59)
+        Me.BingoSlot2.Name = "BingoSlot2"
+        Me.BingoSlot2.Size = New System.Drawing.Size(96, 35)
+        Me.BingoSlot2.TabIndex = 1
+        Me.BingoSlot2.Text = "Slot 2"
+        Me.BingoSlot2.UseVisualStyleBackColor = True
+        '
+        'BingoSlot10
+        '
+        Me.BingoSlot10.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot10.Location = New System.Drawing.Point(100, 129)
+        Me.BingoSlot10.Name = "BingoSlot10"
+        Me.BingoSlot10.Size = New System.Drawing.Size(96, 35)
+        Me.BingoSlot10.TabIndex = 9
+        Me.BingoSlot10.Text = "Slot 10"
+        Me.BingoSlot10.UseVisualStyleBackColor = True
+        '
+        'BingoSlot3
+        '
+        Me.BingoSlot3.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot3.Location = New System.Drawing.Point(196, 59)
+        Me.BingoSlot3.Name = "BingoSlot3"
+        Me.BingoSlot3.Size = New System.Drawing.Size(96, 35)
+        Me.BingoSlot3.TabIndex = 2
+        Me.BingoSlot3.Text = "Slot 3"
+        Me.BingoSlot3.UseVisualStyleBackColor = True
+        '
+        'BingoSlot9
+        '
+        Me.BingoSlot9.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot9.Location = New System.Drawing.Point(4, 129)
+        Me.BingoSlot9.Name = "BingoSlot9"
+        Me.BingoSlot9.Size = New System.Drawing.Size(96, 35)
+        Me.BingoSlot9.TabIndex = 8
+        Me.BingoSlot9.Text = "Slot 9"
+        Me.BingoSlot9.UseVisualStyleBackColor = True
+        '
+        'BingoSlot4
+        '
+        Me.BingoSlot4.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot4.Location = New System.Drawing.Point(292, 59)
+        Me.BingoSlot4.Name = "BingoSlot4"
+        Me.BingoSlot4.Size = New System.Drawing.Size(100, 35)
+        Me.BingoSlot4.TabIndex = 3
+        Me.BingoSlot4.Text = "Slot 4"
+        Me.BingoSlot4.UseVisualStyleBackColor = True
+        '
+        'BingoSlot8
+        '
+        Me.BingoSlot8.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot8.Location = New System.Drawing.Point(292, 94)
+        Me.BingoSlot8.Name = "BingoSlot8"
+        Me.BingoSlot8.Size = New System.Drawing.Size(100, 35)
+        Me.BingoSlot8.TabIndex = 7
+        Me.BingoSlot8.Text = "Slot 8"
+        Me.BingoSlot8.UseVisualStyleBackColor = True
+        '
+        'BingoSlot5
+        '
+        Me.BingoSlot5.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot5.Location = New System.Drawing.Point(4, 94)
+        Me.BingoSlot5.Name = "BingoSlot5"
+        Me.BingoSlot5.Size = New System.Drawing.Size(96, 35)
+        Me.BingoSlot5.TabIndex = 4
+        Me.BingoSlot5.Text = "Slot 5"
+        Me.BingoSlot5.UseVisualStyleBackColor = True
+        '
+        'BingoSlot7
+        '
+        Me.BingoSlot7.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot7.Location = New System.Drawing.Point(196, 94)
+        Me.BingoSlot7.Name = "BingoSlot7"
+        Me.BingoSlot7.Size = New System.Drawing.Size(96, 35)
+        Me.BingoSlot7.TabIndex = 6
+        Me.BingoSlot7.Text = "Slot 7"
+        Me.BingoSlot7.UseVisualStyleBackColor = True
+        '
+        'BingoSlot6
+        '
+        Me.BingoSlot6.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.BingoSlot6.Location = New System.Drawing.Point(100, 94)
+        Me.BingoSlot6.Name = "BingoSlot6"
+        Me.BingoSlot6.Size = New System.Drawing.Size(96, 35)
+        Me.BingoSlot6.TabIndex = 5
+        Me.BingoSlot6.Text = "Slot 6"
+        Me.BingoSlot6.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(41, 21)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(350, 13)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "Automatically reset the bingo board when the score reaches 12/12."
         '
         'SettingsPanelGeneral
         '
@@ -491,17 +486,17 @@ Partial Class SettingsPanelGeneral
         Me.TabPage1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage3.ResumeLayout(False)
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -514,8 +509,6 @@ Partial Class SettingsPanelGeneral
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
-    Friend WithEvents ResetOFF As System.Windows.Forms.RadioButton
-    Friend WithEvents ResetON As System.Windows.Forms.RadioButton
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents MsgBoxOFF As System.Windows.Forms.RadioButton
@@ -543,4 +536,6 @@ Partial Class SettingsPanelGeneral
     Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents ResetBox As CheckBox
+    Friend WithEvents Label4 As Label
 End Class
