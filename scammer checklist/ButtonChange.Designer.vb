@@ -22,11 +22,12 @@ Partial Class ButtonChange
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ButtonChange))
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.OKButton = New System.Windows.Forms.Button()
         Me.CancelButton = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'TextBox1
@@ -36,6 +37,7 @@ Partial Class ButtonChange
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(259, 22)
         Me.TextBox1.TabIndex = 0
+        Me.ToolTip1.SetToolTip(Me.TextBox1, "24 character limit.")
         '
         'OKButton
         '
@@ -58,16 +60,6 @@ Partial Class ButtonChange
         Me.CancelButton.Text = "Cancel"
         Me.CancelButton.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(12, 46)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(97, 13)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "24 character limit."
-        '
         'ButtonChange
         '
         Me.AcceptButton = Me.OKButton
@@ -75,7 +67,6 @@ Partial Class ButtonChange
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(283, 76)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.CancelButton)
         Me.Controls.Add(Me.OKButton)
         Me.Controls.Add(Me.TextBox1)
@@ -96,5 +87,5 @@ Partial Class ButtonChange
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents OKButton As System.Windows.Forms.Button
     Friend WithEvents CancelButton As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

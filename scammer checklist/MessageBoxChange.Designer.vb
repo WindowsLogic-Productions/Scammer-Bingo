@@ -22,11 +22,12 @@ Partial Class MessageBoxChange
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MessageBoxChange))
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.CancelButton = New System.Windows.Forms.Button()
         Me.OKButton = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'TextBox1
@@ -36,6 +37,7 @@ Partial Class MessageBoxChange
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(330, 22)
         Me.TextBox1.TabIndex = 0
+        Me.ToolTip1.SetToolTip(Me.TextBox1, "78 character limit.")
         '
         'CancelButton
         '
@@ -58,25 +60,13 @@ Partial Class MessageBoxChange
         Me.OKButton.Text = "OK"
         Me.OKButton.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(8, 46)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(170, 13)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "You are limited to 78 characters."
-        '
         'MessageBoxChange
         '
         Me.AcceptButton = Me.OKButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.CancelButton = Me.CancelButton
         Me.ClientSize = New System.Drawing.Size(354, 76)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.OKButton)
         Me.Controls.Add(Me.CancelButton)
         Me.Controls.Add(Me.TextBox1)
@@ -97,5 +87,5 @@ Partial Class MessageBoxChange
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents CancelButton As System.Windows.Forms.Button
     Friend WithEvents OKButton As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ToolTip1 As ToolTip
 End Class
